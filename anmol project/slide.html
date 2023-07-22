@@ -1,0 +1,270 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ #button1{
+   padding:10px;
+   background-color:cyan;
+   font-size:10px;
+   border-radius:10px;
+   font-weight:bolder;
+}
+    #button2{
+   padding:10px;
+   background-color:chartreuse;
+   font-size:10px;
+   border-radius:10px;
+   font-weight:bolder;
+}
+#button1:hover{
+background-color:yellow;
+}
+#button2:hover{
+background-color:green;
+}
+.checked
+{
+  color:orange;
+}
+.link
+{
+border-radius:10px;
+}
+.links
+{
+border-radius:10px;
+}
+.links:hover
+{
+background-color:red;
+}
+.zoom
+{
+transition:transform 0.6s;
+}
+.zoom:hover
+{
+transform:scale(1.2);
+}
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position : absolute;
+  background-color:cyan;
+  min-width:120px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+ padding: 17px  16px;
+  color:red;
+}
+
+ .dropdown:hover  .dropdown-content {
+  display : block;
+}
+*box-sizing: border-box;
+}
+.zoom {
+ transition : transform .2s;
+width: 200px;
+height: 180px;
+margin: 0 300px;
+}
+.zoom:hover {
+ transform:scale (1.07);
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body><table border="0" width="100%"   height="8%">
+<tr>
+<th width="20%" bgcolor="orange" class="links">
+<div class="dropdown" ><a href="course.html"><span >COURSES</span></a>
+<div class="dropdown-content">
+  <font color="Black"> <p>B.Tech(GIET)</p></font>
+     <p>BBA,MBA(GIM)</p>
+<font color="Black"> <p>B.COM(GIC)</p></font>
+ <p>BCA,MCA(GIM)</p>
+<font color="Black"><p>B.PHARMA(GIB)</p></font>
+</div>
+</div></th> 
+<th width="20%" bgcolor="orange" class="links"><div class="dropdown" >
+<a href="gallery.html"><span>GALLERY</span></a>
+<div class="dropdown-content">
+  <font color="Black"> <p>EVENTS</p></font>
+     <p>Freshers Party</p>
+<font color="Black"> <p>Concerts</p></font>
+ <p></p>Campus Inaugration
+</div>
+</div>
+</th>
+<th width="20%" bgcolor="orange" class="links"><div class="dropdown" >
+<a href="rules.html"><span>Rule & Regulations</span></a>
+<div class="dropdown-content">
+ <font color="Black">  <p>Fees Details</p></font>
+     <p>Terms & Condition</p>
+
+</div>
+</div>
+</th>
+<th width="20%"bgcolor="orange" class="links"><div class="dropdown" >
+<a href="register.html"><span>Enroll Now</span></a>
+<div class="dropdown-content">
+   <font color="Black"><p>For New Students</p></font>
+</div>
+</div></th>
+<th width="20%"bgcolor="orange" class="links"><div class="dropdown" ><a href="login.html"><span>Login/Register</span></a>
+<div class="dropdown-content">
+<p>Login(For Old Members)</p>
+<font color="Black"><p>Registration(for new Staffs)</p></font>
+</div></div></th></tr>
+</table>
+<TABLE>
+<TR>
+<TD width="30%" >&nbsp &nbsp &nbsp <IMG SRC=logo.jpg HEIGHT=60% WIDTH=60% ></TD><TD width="70%" CLASS="zoom">
+<FONT SIZE=40 COLOR=INDIGO FACE=ALGERIAN >&nbsp &nbsp &nbsp  &nbsp  GRANDWORLD UNIVERSITY</FONT><BR>
+
+</FONT>
+</TD>
+</TR>
+</TABLE>
+<MARQUEE Behavior=alternate><I><FONT FACE=Edwardian Script ITC COLOR=PURPLE><B>Enhancing a New Way of Education.....</B></FONT></I></MARQUEE>
+<HR SIZE=5% WIDTH=100% COLOR=RED>
+<HR SIZE=10% WIDTH=100% COLOR=GREEN>
+<HR SIZE=5% WIDTH=100% COLOR=RED>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="cf1.jpg" style="width:100%  height:70%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="cf2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="cf3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="cf4.jpg" style="width:100%">
+  <div class="text">Caption Four</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5/5</div>
+  <img src="cf5.jpg" style="width:100%">
+  <div class="text">Caption Five</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span> 
+<span class="dot"></span> 
+</div>
+<HR SIZE=5% WIDTH=100% COLOR=RED>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+<table border="0" width="100%"  bgcolor="white" >
+<TH CLASS="zoom" width="33.33%"><A HREF=RULE.HTML><IMG SRC="tc1.JPG"  width="90%" ></A></TH>
+<TH CLASS="zoom" width="33.33%"><A HREF=ABOUTUS.HTML><IMG SRC="tc2.jpg"  width="90%"></A></TH>
+<TH  CLASS="zoom"  width="33.33%"><A HREF=NOTICE.HTML><IMG SRC="tc3.jpg"  width="90%"></A></TH>
+</TR></TABLE><TABLE WIDTH=100%>
+<TR BGCOLOR="black"><TH>
+<marquee behavior="alternate"><FONT COLOR="white">Developed By anmol shandilya</FONT></marquee>
+</TH></TR></TABLE><br></body>
+</html> 
